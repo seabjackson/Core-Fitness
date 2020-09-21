@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// A type to make it explicit that it has no value or may have a value that has not been fetched yet
+/// A type to explicitly declare that it has no value or may have a value that has not been fetched yet
 /// Optional Collections do not quite make this distinction
         
 struct FetchableValue<T> {

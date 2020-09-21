@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct Root: Codable {
+privatestruct Root: Codable {
     let classes: FetchableValue<[Class]>
 }
 
 extension Root {
     enum CodingKeys: String, CodingKey {
-        case classes = "classes"
+        case classes
     }
 }
