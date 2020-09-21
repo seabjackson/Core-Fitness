@@ -8,16 +8,11 @@
 import Foundation
 
 struct Root: Codable {
-    let classes: [Class]
+    let classes: FetchableValue<[Class]>
 }
 
 extension Root {
-    enum CodingKeys: String, CodingKeys {
+    enum CodingKeys: String, CodingKey {
         case classes = "classes"
-    }
-    
-    init(from decoder: Decoder) throws {
-        let values = try decoder.container(keyedBy: CodingKeys.self)
-        classes = try values.decodeIfPresent([Class].self, forKey: .classes)
     }
 }
