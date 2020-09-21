@@ -12,6 +12,7 @@
 		B560D402251843F900DF1ADE /* ClassMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B560D401251843F900DF1ADE /* ClassMapper.swift */; };
 		B560D406251845ED00DF1ADE /* RemoteClassLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B560D405251845ED00DF1ADE /* RemoteClassLoader.swift */; };
 		B560D40925184D1500DF1ADE /* ClassItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B560D40825184D1500DF1ADE /* ClassItem.swift */; };
+		B560D41025185CA800DF1ADE /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B560D40F25185CA800DF1ADE /* URLSessionHTTPClient.swift */; };
 		B562CE0B2517C16E0089D472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B562CE0A2517C16E0089D472 /* AppDelegate.swift */; };
 		B562CE0D2517C16E0089D472 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B562CE0C2517C16E0089D472 /* SceneDelegate.swift */; };
 		B562CE0F2517C16E0089D472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B562CE0E2517C16E0089D472 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 		B560D401251843F900DF1ADE /* ClassMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassMapper.swift; sourceTree = "<group>"; };
 		B560D405251845ED00DF1ADE /* RemoteClassLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteClassLoader.swift; sourceTree = "<group>"; };
 		B560D40825184D1500DF1ADE /* ClassItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassItem.swift; sourceTree = "<group>"; };
+		B560D40F25185CA800DF1ADE /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		B562CE072517C16E0089D472 /* Core Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Fitness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B562CE0A2517C16E0089D472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B562CE0C2517C16E0089D472 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B560D40D25185AE100DF1ADE /* ClassFeed API */ = {
+			isa = PBXGroup;
+			children = (
+				B560D401251843F900DF1ADE /* ClassMapper.swift */,
+				B560D405251845ED00DF1ADE /* RemoteClassLoader.swift */,
+				B560D3FD2518436100DF1ADE /* HTTPClient.swift */,
+				B560D40F25185CA800DF1ADE /* URLSessionHTTPClient.swift */,
+			);
+			path = "ClassFeed API";
+			sourceTree = "<group>";
+		};
 		B562CDFE2517C16D0089D472 = {
 			isa = PBXGroup;
 			children = (
@@ -83,9 +96,7 @@
 			children = (
 				B560D40825184D1500DF1ADE /* ClassItem.swift */,
 				B560D3F92518427600DF1ADE /* ClassLoader.swift */,
-				B560D401251843F900DF1ADE /* ClassMapper.swift */,
-				B560D405251845ED00DF1ADE /* RemoteClassLoader.swift */,
-				B560D3FD2518436100DF1ADE /* HTTPClient.swift */,
+				B560D40D25185AE100DF1ADE /* ClassFeed API */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +179,7 @@
 				B562CE0D2517C16E0089D472 /* SceneDelegate.swift in Sources */,
 				B560D3FA2518427600DF1ADE /* ClassLoader.swift in Sources */,
 				B560D40925184D1500DF1ADE /* ClassItem.swift in Sources */,
+				B560D41025185CA800DF1ADE /* URLSessionHTTPClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
