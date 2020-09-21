@@ -8,7 +8,7 @@
 import Foundation
 
 public enum LoadClassResult {
-    case success([Class])
+    case success([ClassItem])
     case failure(Error)
 }
 
