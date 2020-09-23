@@ -13,12 +13,12 @@
 		B560D406251845ED00DF1ADE /* RemoteClassLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B560D405251845ED00DF1ADE /* RemoteClassLoader.swift */; };
 		B560D40925184D1500DF1ADE /* ClassItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B560D40825184D1500DF1ADE /* ClassItem.swift */; };
 		B560D41025185CA800DF1ADE /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B560D40F25185CA800DF1ADE /* URLSessionHTTPClient.swift */; };
-		B562CE0B2517C16E0089D472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B562CE0A2517C16E0089D472 /* AppDelegate.swift */; };
-		B562CE0D2517C16E0089D472 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B562CE0C2517C16E0089D472 /* SceneDelegate.swift */; };
 		B562CE0F2517C16E0089D472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B562CE0E2517C16E0089D472 /* ViewController.swift */; };
 		B562CE122517C16E0089D472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B562CE102517C16E0089D472 /* Main.storyboard */; };
 		B562CE142517C1700089D472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B562CE132517C1700089D472 /* Assets.xcassets */; };
 		B562CE172517C1700089D472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B562CE152517C1700089D472 /* LaunchScreen.storyboard */; };
+		B584B86A251AF14D005F2275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B562CE0A2517C16E0089D472 /* AppDelegate.swift */; };
+		B584B86B251AF151005F2275 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B562CE0C2517C16E0089D472 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -171,12 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B584B86A251AF14D005F2275 /* AppDelegate.swift in Sources */,
 				B562CE0F2517C16E0089D472 /* ViewController.swift in Sources */,
+				B584B86B251AF151005F2275 /* SceneDelegate.swift in Sources */,
 				B560D3FE2518436100DF1ADE /* HTTPClient.swift in Sources */,
 				B560D406251845ED00DF1ADE /* RemoteClassLoader.swift in Sources */,
 				B560D402251843F900DF1ADE /* ClassMapper.swift in Sources */,
-				B562CE0B2517C16E0089D472 /* AppDelegate.swift in Sources */,
-				B562CE0D2517C16E0089D472 /* SceneDelegate.swift in Sources */,
 				B560D3FA2518427600DF1ADE /* ClassLoader.swift in Sources */,
 				B560D40925184D1500DF1ADE /* ClassItem.swift in Sources */,
 				B560D41025185CA800DF1ADE /* URLSessionHTTPClient.swift in Sources */,
@@ -329,7 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K5WVRUDJ59;
 				INFOPLIST_FILE = "Core Fitness/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -349,7 +349,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K5WVRUDJ59;
 				INFOPLIST_FILE = "Core Fitness/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
